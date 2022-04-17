@@ -27,7 +27,7 @@ export default function Projects() {
                 
                 <ProjectCard 
                     title="Token Saíra" 
-                    text="moeda alternativa, recompensa para quem apoia, ferramenta de financiamento de projetos..."
+                    text="Moeda alternativa, recompensa para quem apoia, ferramenta de financiamento de projetos..."
                     image="/images/projects/token.jpg"
                     />
             </div>
