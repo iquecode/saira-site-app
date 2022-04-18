@@ -17,7 +17,7 @@ export default function Donate() {
         <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Ajude o Saíra a voar</h1>
-            <p className="mb-5 text-2xl">Apoie financeiramente com o que você pode e receba <span className="hover:cursor-pointer tooltip text-primary" data-tip={dataTip} >Tokens Saíra</span> em caso de doações recorrentes.</p>
+            <p className="mb-5 text-2xl">Apoie financeiramente com o que você puder e receba <span className="hover:cursor-pointer tooltip text-primary" data-tip={dataTip} >Tokens Saíra</span> em caso de doações recorrentes.</p>
             <p className="mb-5 text-2xl">Você pode fazer a difença, mesmo com um valor pequeno :)</p>
             <button className="btn btn-primary">Veja como apoiar...</button>
             </div>
