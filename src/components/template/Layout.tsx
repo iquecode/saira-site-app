@@ -1,12 +1,21 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import Body from "./Body"
+import Content from "./Content"
 
-export default function Layout() {
+interface LayoutProps {
+    title?: string
+    subtitle?: string
+    children?: any 
+ }
+
+export default function Layout(props: LayoutProps) {
     return (
         <>
             <Header />
-            <Body />
+            <Content>
+                        {props.children}    
+            </Content>    
             <Footer />
         </>
     )

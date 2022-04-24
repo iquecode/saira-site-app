@@ -1,3 +1,16 @@
+## Context API
+
+src > data
+
+src > data > context
+    AppContext.tsx
+    
+
+src > data > hook
+
+
+
+
 ## start
 yarn create next-app --typescript
 npx gitignore node

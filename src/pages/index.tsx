@@ -1,9 +1,12 @@
 import Layout from "../components/template/Layout"
+import Body from "../components/template/Body"
 
 function Home() {
   return (  
     
-    <Layout />
+    <Layout>
+      <Body/>
+    </Layout>
 
   )
 }
